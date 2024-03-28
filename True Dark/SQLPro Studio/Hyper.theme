@@ -1,0 +1,22 @@
+{
+  "columnColor" : "#286c83",
+  "databaseColor" : "#cc00ff",
+  "fontName" : "Monaco",
+  "stringColor" : "#ffff00",
+  "tableColor" : "#836c28",
+  "displayName" : "Hyper",
+  "backgroundColor" : "#000000",
+  "schemaColor" : "#33ff00",
+  "version" : 1,
+  "functionColor" : "#0066ff",
+  "lineNumberFontColor" : "#7d7d7d",
+  "fontSize" : 13,
+  "selectionColor" : "#a7caff",
+  "queryInCursorRangeBackgroundColor" : "#a7caff4c",
+  "keywordColor" : "#fe0100",
+  "commentColor" : "#808080",
+  "variableColor" : "#fab387",
+  "lineNumberBackgroundColor" : "#f8f8f8",
+  "plainTextColor" : "#ffffff",
+  "numberColor" : "#cc00ff"
+}
