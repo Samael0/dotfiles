@@ -1,0 +1,16 @@
+{
+  "workbench.startupEditor": "none",
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "FiraCode Nerd Font",
+  "editor.fontWeight": "bold",
+  "editor.fontSize": 16,
+  "workbench.iconTheme": "rose-pine-icons",
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.editor.enablePreview": false,
+  "github.copilot.advanced": {},
+  "workbench.colorTheme": "Rosé Pine"
+}

@@ -129,7 +129,7 @@
 - Vim
   - `.vimrc`
 
-### Ranni (Custom)
+### Gruvbox
 
 - Slack
   - `#282828, #3c3836, #ebdbb2, #1d2021, #3e313c, #ebdbb2, #689d6a, #fb4934`
@@ -142,7 +142,26 @@
 - Jetbrains
   - ?
 - Spicetify
-  - Dribbblish Gruvbox
+  - Dribbblish Gruvbox Material Dark
+- Ubersicht/Simple Bar
+  - Custom Style
+- Vim
+  - `.vimrc`
+
+### Rose Pine
+
+- Slack
+  - `#191724,#191724,#2a2837,#9ccfd8,#211f2d,#e0def4,#f6c177,#31748f,#191724,#c4a7e7`
+- Warp
+  - Base16 Rose Pine
+- SQLPro Studio
+  - Rose Pine
+- VSCode
+  - Rose Pine
+- Jetbrains
+  - ?
+- Spicetify
+  - Dribbblish Rose Pine
 - Ubersicht/Simple Bar
   - Custom Style
 - Vim
