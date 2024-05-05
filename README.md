@@ -38,6 +38,7 @@
   - SimpleBar
 
 # Fonts
+
 - SF Mono
 - FiraCode
 - Iosevka Term
@@ -128,3 +129,21 @@
 - Vim
   - `.vimrc`
 
+### Ranni (Custom)
+
+- Slack
+  - `#282828, #3c3836, #ebdbb2, #1d2021, #3e313c, #ebdbb2, #689d6a, #fb4934`
+- Warp
+  - Base16 Gruvbox Dark Hard
+- SQLPro Studio
+  - Gruvbox
+- VSCode
+  - Gruvbox
+- Jetbrains
+  - ?
+- Spicetify
+  - Dribbblish Gruvbox
+- Ubersicht/Simple Bar
+  - Custom Style
+- Vim
+  - `.vimrc`
