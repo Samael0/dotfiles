@@ -8,6 +8,8 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 Plug 'ghifarit53/tokyonight-vim'
+Plug 'aonemd/kuroi.vim', { 'as': 'kuroi' }
+Plug 'jdsimcoe/hyper.vim', { 'as': 'hyper' }
 
 call plug#end()
 

@@ -10,6 +10,7 @@ Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 Plug 'ghifarit53/tokyonight-vim'
 Plug 'aonemd/kuroi.vim', { 'as': 'kuroi' }
 Plug 'jdsimcoe/hyper.vim', { 'as': 'hyper' }
+Plug 'lifepillar/vim-gruvbox8', { 'as': 'gruvbox' }
 
 call plug#end()
 
@@ -17,4 +18,4 @@ set termguicolors
 set number
 set backspace=indent,eol,start
 
-colorscheme hyper
+colorscheme gruvbox8_hard

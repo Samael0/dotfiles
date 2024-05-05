@@ -6,6 +6,7 @@ echo "1. Default (Catppuccin Mocha)"
 echo "2. Tokyo"
 echo "3. True Dark"
 echo "4. Ranni"
+echo "5. Gruvbox"
 
 read -p "Enter your choice: " choice
 
@@ -192,6 +193,52 @@ case $choice in
         echo "5. Simple Bar: Import Settings"
         echo "6. Vim: :PlugInstall"
         ;;
+
+    5)
+        # Copy over the skhd config
+        cp -rp "./Global Configs/skhd" "$HOME/.config/"
+
+        # Copy over the yabai config
+        cp -rp "./Gruvbox/yabai" "$HOME/.config/"
+
+        # Copy over simple bar config
+        cp -p "./Gruvbox/simplebar/.simplebarrc" "$HOME/"
+
+        # Copy over VScode config
+        cp -p "./Gruvbox/Code/settings.json" "$HOME/Library/Application Support/Code/User/"
+
+        # Copy over webstorm config
+        cp -p "./Gruvbox/WebStorm/colors.scheme.xml" "$HOME/Library/Application Support/JetBrains/WebStorm2023.3/options"
+        cp -p "./Gruvbox/WebStorm/laf.xml" "$HOME/Library/Application Support/JetBrains/WebStorm2023.3/options"
+
+        # Copy over pycharm config
+        cp -p "./Gruvbox/PyCharm/colors.scheme.xml" "$HOME/Library/Application Support/JetBrains/PyCharm2023.3/options"
+        cp -p "./Gruvbox/PyCharm/laf.xml" "$HOME/Library/Application Support/JetBrains/PyCharm2023.3/options"
+
+        # Copy over SQLPro Theme
+        cp -p "./Gruvbox/SQLPro Studio/Gruvbox.theme" "$HOME/Library/Containers/com.hankinsoft.osx.sqlprostudio/Data/Documents/Themes/"
+
+        # Copy over Vim Theme
+        cp -p "./Gruvbox/Vim/.vimrc" "$HOME/"
+        
+        # Copy over wallpapers
+        cp -rp "./Wallpapers" "$HOME/Pictures/"
+
+        # Restart services
+        yabai --restart-service
+        skhd --restart-service
+        osascript -e 'tell application id "tracesOf.Uebersicht" to refresh'
+
+        # Print out last messages
+        echo "Manually set the following: "
+        echo "1. Slack: Gruvbox in Readme"
+        echo "2. Warp: Base16 Gruvbox Dark Hard"
+        echo "3. SQLPro Studio: Gruvbox"
+        echo "4. Spicetify: Dribbblish Gruvbox"
+        echo "5. Simple Bar: Import Settings"
+        echo "6. Vim: :PlugInstall"
+        ;;  
+
     *)
         echo "Invalid choice"
         ;;
