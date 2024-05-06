@@ -32,6 +32,7 @@
     "showCurrentSpaceMode": false,
     "hideWindowTitle": true,
     "displayOnlyIcon": false,
+    "expandAllProcesses": false,
     "displaySkhdMode": false,
     "displayStackIndex": true,
     "displayOnlyCurrentStack": false

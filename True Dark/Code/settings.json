@@ -12,5 +12,5 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "workbench.editor.enablePreview": false,
   "github.copilot.advanced": {},
-  "workbench.colorTheme": "Styrokai++"
+  "workbench.colorTheme": "Hyper Term Black"
 }

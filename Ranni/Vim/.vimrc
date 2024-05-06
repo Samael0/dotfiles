@@ -7,14 +7,17 @@ endif
 call plug#begin('~/.vim/plugged')
 
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
-Plug 'ghifarit53/tokyonight-vim'
-Plug 'aonemd/kuroi.vim', { 'as': 'kuroi' }
-Plug 'jdsimcoe/hyper.vim', { 'as': 'hyper' }
+Plug 'lifepillar/vim-gruvbox8', { 'as': 'gruvbox' }
+Plug 'rose-pine/vim', { 'as': 'rose-pine' }
+Plug 'ghifarit53/tokyonight-vim', { 'as': 'tokyonight' }
+Plug 'lucasprag/simpleblack', { 'as': 'simpleblack' }
 
 call plug#end()
 
+set termguicolors
 set number
 set backspace=indent,eol,start
+set background=dark
 
 hi StatusLine ctermfg=white ctermbg=darkblue cterm=NONE
 hi StatusLineNC ctermfg=white ctermbg=darkblue cterm=NONE

@@ -23,7 +23,7 @@
   },
   "themes": {
     "lightTheme": "NightShiftLight",
-    "darkTheme": "RosePineMoon"
+    "darkTheme": "OneDark"
   },
   "process": {
     "showOnDisplay": "",
@@ -32,6 +32,7 @@
     "showCurrentSpaceMode": false,
     "hideWindowTitle": true,
     "displayOnlyIcon": false,
+    "expandAllProcesses": false,
     "displaySkhdMode": false,
     "displayStackIndex": true,
     "displayOnlyCurrentStack": false

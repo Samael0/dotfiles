@@ -4,7 +4,7 @@
   "editor.fontFamily": "FiraCode Nerd Font",
   "editor.fontWeight": "bold",
   "editor.fontSize": 16,
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "catppuccin-mocha",
   "editor.formatOnSave": true,
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
