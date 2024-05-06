@@ -26,12 +26,12 @@ case $choice in
         cp -p "./Catppuccin/Code/settings.json" "$HOME/Library/Application Support/Code/User/"
 
         # Copy over webstorm config
-        cp -p "./Catppuccin/WebStorm/colors.scheme.xml" "$HOME/Library/Application Support/JetBrains/WebStorm2023.3/options"
-        cp -p "./Catppuccin/WebStorm/laf.xml" "$HOME/Library/Application Support/JetBrains/WebStorm2023.3/options"
+        cp -p "./Catppuccin/WebStorm/colors.scheme.xml" "$HOME/Library/Application Support/JetBrains/WebStorm2024.1/options"
+        cp -p "./Catppuccin/WebStorm/laf.xml" "$HOME/Library/Application Support/JetBrains/WebStorm2024.1/options"
 
         # Copy over pycharm config
-        cp -p "./Catppuccin/PyCharm/colors.scheme.xml" "$HOME/Library/Application Support/JetBrains/PyCharm2023.3/options"
-        cp -p "./Catppuccin/PyCharm/laf.xml" "$HOME/Library/Application Support/JetBrains/PyCharm2023.3/options"
+        cp -p "./Catppuccin/PyCharm/colors.scheme.xml" "$HOME/Library/Application Support/JetBrains/PyCharm2024.1/options"
+        cp -p "./Catppuccin/PyCharm/laf.xml" "$HOME/Library/Application Support/JetBrains/PyCharm2024.1/options"
 
         # Copy over warp color theme
         cp -p "./Catppuccin/Warp/catppuccin_mocha.yml" "$HOME/.warp/themes/"
@@ -74,12 +74,12 @@ case $choice in
         cp -p "./Tokyo/Code/settings.json" "$HOME/Library/Application Support/Code/User/"
 
         # Copy over webstorm config
-        cp -p "./Tokyo/WebStorm/colors.scheme.xml" "$HOME/Library/Application Support/JetBrains/WebStorm2023.3/options"
-        cp -p "./Tokyo/WebStorm/laf.xml" "$HOME/Library/Application Support/JetBrains/WebStorm2023.3/options"
+        cp -p "./Tokyo/WebStorm/colors.scheme.xml" "$HOME/Library/Application Support/JetBrains/WebStorm2024.1/options"
+        cp -p "./Tokyo/WebStorm/laf.xml" "$HOME/Library/Application Support/JetBrains/WebStorm2024.1/options"
 
         # Copy over pycharm config
-        cp -p "./Tokyo/PyCharm/colors.scheme.xml" "$HOME/Library/Application Support/JetBrains/PyCharm2023.3/options"
-        cp -p "./Tokyo/PyCharm/laf.xml" "$HOME/Library/Application Support/JetBrains/PyCharm2023.3/options"
+        cp -p "./Tokyo/PyCharm/colors.scheme.xml" "$HOME/Library/Application Support/JetBrains/PyCharm2024.1/options"
+        cp -p "./Tokyo/PyCharm/laf.xml" "$HOME/Library/Application Support/JetBrains/PyCharm2024.1/options"
 
         # Copy over warp color theme
         cp -p "./Tokyo/Warp/tokyo_night.yml" "$HOME/.warp/themes/"
@@ -122,12 +122,12 @@ case $choice in
         cp -p "./True Dark/Code/settings.json" "$HOME/Library/Application Support/Code/User/"
 
         # Copy over webstorm config
-        cp -p "./True Dark/WebStorm/colors.scheme.xml" "$HOME/Library/Application Support/JetBrains/WebStorm2023.3/options"
-        cp -p "./True Dark/WebStorm/laf.xml" "$HOME/Library/Application Support/JetBrains/WebStorm2023.3/options"
+        cp -p "./True Dark/WebStorm/colors.scheme.xml" "$HOME/Library/Application Support/JetBrains/WebStorm2024.1/options"
+        cp -p "./True Dark/WebStorm/laf.xml" "$HOME/Library/Application Support/JetBrains/WebStorm2024.1/options"
 
         # Copy over pycharm config
-        cp -p "./True Dark/PyCharm/colors.scheme.xml" "$HOME/Library/Application Support/JetBrains/PyCharm2023.3/options"
-        cp -p "./True Dark/PyCharm/laf.xml" "$HOME/Library/Application Support/JetBrains/PyCharm2023.3/options"
+        cp -p "./True Dark/PyCharm/colors.scheme.xml" "$HOME/Library/Application Support/JetBrains/PyCharm2024.1/options"
+        cp -p "./True Dark/PyCharm/laf.xml" "$HOME/Library/Application Support/JetBrains/PyCharm2024.1/options"
 
         # Copy over warp color theme
         cp -p "./True Dark/Warp/bilibili_dark.yml" "$HOME/.warp/themes/"
@@ -170,12 +170,12 @@ case $choice in
         cp -p "./Ranni/Code/settings.json" "$HOME/Library/Application Support/Code/User/"
 
         # Copy over webstorm config
-        cp -p "./Ranni/WebStorm/colors.scheme.xml" "$HOME/Library/Application Support/JetBrains/WebStorm2023.3/options"
-        cp -p "./Ranni/WebStorm/laf.xml" "$HOME/Library/Application Support/JetBrains/WebStorm2023.3/options"
+        cp -p "./Ranni/WebStorm/colors.scheme.xml" "$HOME/Library/Application Support/JetBrains/WebStorm2024.1/options"
+        cp -p "./Ranni/WebStorm/laf.xml" "$HOME/Library/Application Support/JetBrains/WebStorm2024.1/options"
 
         # Copy over pycharm config
-        cp -p "./Ranni/PyCharm/colors.scheme.xml" "$HOME/Library/Application Support/JetBrains/PyCharm2023.3/options"
-        cp -p "./Ranni/PyCharm/laf.xml" "$HOME/Library/Application Support/JetBrains/PyCharm2023.3/options"
+        cp -p "./Ranni/PyCharm/colors.scheme.xml" "$HOME/Library/Application Support/JetBrains/PyCharm2024.1/options"
+        cp -p "./Ranni/PyCharm/laf.xml" "$HOME/Library/Application Support/JetBrains/PyCharm2024.1/options"
 
         # Copy over warp color theme
         cp -p "./Ranni/Warp/Ranni.yml" "$HOME/.warp/themes/"
@@ -218,12 +218,12 @@ case $choice in
         cp -p "./Gruvbox/Code/settings.json" "$HOME/Library/Application Support/Code/User/"
 
         # Copy over webstorm config
-        cp -p "./Gruvbox/WebStorm/colors.scheme.xml" "$HOME/Library/Application Support/JetBrains/WebStorm2023.3/options"
-        cp -p "./Gruvbox/WebStorm/laf.xml" "$HOME/Library/Application Support/JetBrains/WebStorm2023.3/options"
+        cp -p "./Gruvbox/WebStorm/colors.scheme.xml" "$HOME/Library/Application Support/JetBrains/WebStorm2024.1/options"
+        cp -p "./Gruvbox/WebStorm/laf.xml" "$HOME/Library/Application Support/JetBrains/WebStorm2024.1/options"
 
         # Copy over pycharm config
-        cp -p "./Gruvbox/PyCharm/colors.scheme.xml" "$HOME/Library/Application Support/JetBrains/PyCharm2023.3/options"
-        cp -p "./Gruvbox/PyCharm/laf.xml" "$HOME/Library/Application Support/JetBrains/PyCharm2023.3/options"
+        cp -p "./Gruvbox/PyCharm/colors.scheme.xml" "$HOME/Library/Application Support/JetBrains/PyCharm2024.1/options"
+        cp -p "./Gruvbox/PyCharm/laf.xml" "$HOME/Library/Application Support/JetBrains/PyCharm2024.1/options"
 
         # Copy over warp color theme
         cp -p "./Gruvbox/Warp/gruvbox_dark.yml" "$HOME/.warp/themes/"
@@ -266,12 +266,12 @@ case $choice in
         cp -p "./Rose Pine/Code/settings.json" "$HOME/Library/Application Support/Code/User/"
 
         # Copy over webstorm config
-        cp -p "./Rose Pine/WebStorm/colors.scheme.xml" "$HOME/Library/Application Support/JetBrains/WebStorm2023.3/options"
-        cp -p "./Rose Pine/WebStorm/laf.xml" "$HOME/Library/Application Support/JetBrains/WebStorm2023.3/options"
+        cp -p "./Rose Pine/WebStorm/colors.scheme.xml" "$HOME/Library/Application Support/JetBrains/WebStorm2024.1/options"
+        cp -p "./Rose Pine/WebStorm/laf.xml" "$HOME/Library/Application Support/JetBrains/WebStorm2024.1/options"
 
         # Copy over pycharm config
-        cp -p "./Rose Pine/PyCharm/colors.scheme.xml" "$HOME/Library/Application Support/JetBrains/PyCharm2023.3/options"
-        cp -p "./Rose Pine/PyCharm/laf.xml" "$HOME/Library/Application Support/JetBrains/PyCharm2023.3/options"
+        cp -p "./Rose Pine/PyCharm/colors.scheme.xml" "$HOME/Library/Application Support/JetBrains/PyCharm2024.1/options"
+        cp -p "./Rose Pine/PyCharm/laf.xml" "$HOME/Library/Application Support/JetBrains/PyCharm2024.1/options"
 
         # Copy over warp color theme
         cp -p "./Rose Pine/Warp/rose-pine.yml" "$HOME/.warp/themes/"
