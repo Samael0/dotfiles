@@ -245,7 +245,7 @@ case $choice in
         # Print out last messages
         echo "Manually set the following: "
         echo "1. Slack: README"
-        echo "2. Warp: Gruvbox Dark"
+        echo "2. Warp: Gruvbox Dark Official"
         echo "3. SQLPro Studio: Gruvbox"
         echo "4. Spicetify: Dribbblish. Use Gruvbox Material Dark"
         echo "5. Simple Bar: Import Settings"
