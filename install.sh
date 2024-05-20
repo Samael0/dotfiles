@@ -226,7 +226,7 @@ case $choice in
         cp -p "./Gruvbox/PyCharm/laf.xml" "$HOME/Library/Application Support/JetBrains/PyCharm2024.1/options"
 
         # Copy over warp color theme
-        cp -p "./Gruvbox/Warp/gruvbox_dark.yml" "$HOME/.warp/themes/"
+       cp -p "./Gruvbox/Warp/gruvbox_dark_official.yaml" "$HOME/.warp/themes/"
 
         # Copy over SQLPro Theme
         cp -p "./Gruvbox/SQLPro Studio/Gruvbox.theme" "$HOME/Library/Containers/com.hankinsoft.osx.sqlprostudio/Data/Documents/Themes/"
