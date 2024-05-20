@@ -82,7 +82,7 @@ case $choice in
         cp -p "./Tokyo/PyCharm/laf.xml" "$HOME/Library/Application Support/JetBrains/PyCharm2024.1/options"
 
         # Copy over warp color theme
-        cp -p "./Tokyo/Warp/tokyo_night.yml" "$HOME/.warp/themes/"
+        cp -p "./Tokyo/Warp/tokyo_night.yaml" "$HOME/.warp/themes/"
 
         # Copy over SQLPro Theme
         cp -p "./Tokyo/SQLPro Studio/Tokyo Night.theme" "$HOME/Library/Containers/com.hankinsoft.osx.sqlprostudio/Data/Documents/Themes/"
