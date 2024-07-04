@@ -4,6 +4,7 @@
 2. brew
 3. asdf
 4. Ranger
+5. Nerd Awesome Fonts
 
 # Programs
 
@@ -16,7 +17,7 @@
 - Music
   - Spotify (Spicetify)
 - Spotlight Replacement
-  - Raycast
+  - Alfred
 - Terminal
   - Warp
 - SQL
