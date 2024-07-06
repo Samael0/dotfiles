@@ -31,17 +31,15 @@
 
 # Window Managers
 
-- Yabai
-- JankyBorders
-- Skhd
-- Ubersicht
-  - SimpleBar
+- Aerospace
+- SketchyBar
 
 # Fonts
 
-- SF Mono
-- FiraCode
+- SF Mono Nerd
+- FiraCode Nerd
 - Iosevka Term
+- CaskaydiaCove Nerd
 
 # Theming
 
