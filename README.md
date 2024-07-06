@@ -36,7 +36,9 @@
 
 # Fonts
 
-- SF Mono Nerd
+- sf-symbols
+- font-sf-mono
+- font-sf-pro
 - FiraCode Nerd
 - Iosevka Term
 - CaskaydiaCove Nerd
