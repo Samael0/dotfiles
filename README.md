@@ -39,6 +39,7 @@
 - sf-symbols
 - font-sf-mono
 - font-sf-pro
+- Sketchybar app font
 - FiraCode Nerd
 - Iosevka Term
 - CaskaydiaCove Nerd
