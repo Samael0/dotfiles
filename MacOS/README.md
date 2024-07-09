@@ -3,6 +3,8 @@
 1. oh-my-zsh
 2. brew
 3. asdf
+4. neofetch
+5. jq
 
 # Programs
 
@@ -14,32 +16,40 @@
   - Firefox Dev
 - Music
   - Spotify (Spicetify)
+    - Adblock
+    - Sleek (Greener)
 - Spotlight Replacement
   - Alfred
 - Terminal
-  - Alacritty
-- SQL
-  - SQLPro Studio
+  - Kitty
 - Editor
-  - Vim
+  - Neovim
 - IDE
   - Jetbrains
 - API
   - APIDog
+- Notes
+  - Inkdrop
 
 # Window Managers
 
-- Aerospace
-- Loop
+- Yabai
+- Skhd
+- JankyBorder
 - SketchyBar
 
 # Fonts
 
-- SF Mono
-- Sketchybar app font
-- FiraCode Nerd
-- Iosevka Term
-- CaskaydiaCove Nerd
+- `brew install font-jetbrains-mono-nerd-font`
+- `brew install font-hack-nerd-font`
+- `brew install font-fira-code-nerd-font`
+
+# OS Setup
+- Disable all macos keyboard shortcuts
+- Hide dock and menu
+- Turn off natural scrolling
+- Do not sort spaces on recent activity
+- Set up git ssh key
 
 # Theming
 
