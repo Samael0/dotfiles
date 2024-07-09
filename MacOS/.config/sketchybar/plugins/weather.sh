@@ -1,6 +1,4 @@
-sketchybar --set $NAME \
-  label="Loading..." \
-  icon.color=0xff5edaff
+#!/usr/bin/env zsh
 
 IP=$(curl -s https://ipinfo.io/ip)
 LOCATION_JSON=$(curl -s https://ipinfo.io/$IP/json)
@@ -53,6 +51,5 @@ case ${MOON_PHASE} in
     ;;
 esac
 
-sketchybar --set $NAME \
-  label="$TEMPERATURE$(echo '°')F • $WEATHER_DESCRIPTION"
+sketchybar --set $NAME label="$LOCATION  $TEMPERATURE󰔅 $WEATHER_DESCRIPTION"
 sketchybar --set $NAME.moon icon=$ICON
