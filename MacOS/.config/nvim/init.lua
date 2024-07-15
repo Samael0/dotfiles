@@ -161,7 +161,7 @@ require("lazy").setup({
                     ["@neorg.markup.inline_macro"] = {link = "GruvboxGreen"}
                 }
             })
-            vim.cmd.colorscheme("gruvbox")
+            vim.cmd.colorscheme("kanagawa-dragon")
         end
     }, {"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"}, -- :TSInstallFromGrammar
     {"nvim-treesitter/nvim-treesitter-textobjects", event = "InsertEnter"}, -- TS objects
@@ -232,7 +232,46 @@ require("lazy").setup({
     }, {"3rd/image.nvim"},
     {"lervag/vimtex"}, -- for latex
     {"akinsho/toggleterm.nvim"}, -- for smart terminal
-    {"puremourning/vimspector"} -- debugging
+    {"puremourning/vimspector"}, -- debugging
+    {"rebelot/kanagawa.nvim"}, -- kanagawa colorscheme
+    {"sho-87/kanagawa-paper.nvim"}, -- kanagawa paper colorscheme
+    {
+  "folke/which-key.nvim",
+  event = "VeryLazy",
+  opts = {
+    -- your configuration comes here
+    -- or leave it empty to use the default settings
+    -- refer to the configuration section below
+  },
+  keys = {
+    {
+      "<leader>?",
+      function()
+        require("which-key").show({ global = false })
+      end,
+      desc = "Buffer Local Keymaps (which-key)",
+    },
+  },
+},
+{
+  "kdheepak/lazygit.nvim",
+  cmd = {
+    "LazyGit",
+    "LazyGitConfig",
+    "LazyGitCurrentFile",
+    "LazyGitFilter",
+    "LazyGitFilterCurrentFile",
+  },
+  -- optional for floating window border decoration
+  dependencies = {
+    "nvim-lua/plenary.nvim",
+  },
+  -- setting the keybinding for LazyGit with 'keys' is recommended in
+  -- order to load the plugin when the command is run for the first time
+  keys = {
+    { "<leader>lg", "<cmd>LazyGit<cr>", desc = "LazyGit" }
+  }
+}
 }, {
     performance = {
         rtp = {
