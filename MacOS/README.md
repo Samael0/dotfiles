@@ -5,6 +5,7 @@
 3. asdf
 4. neofetch
 5. jq
+6. Lazygit
 
 # Programs
 
