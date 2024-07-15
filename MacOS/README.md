@@ -6,6 +6,8 @@
 4. neofetch
 5. jq
 6. Lazygit
+7. ripgrep
+8. fd
 
 # Programs
 
