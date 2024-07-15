@@ -3,11 +3,13 @@
 1. oh-my-zsh
 2. brew
 3. asdf
-4. neofetch
-5. jq
-6. Lazygit
-7. ripgrep
-8. fd
+    - nodejs
+    - lua 
+5. neofetch
+6. jq
+7. Lazygit
+8. ripgrep
+9. fd
 
 # Programs
 
