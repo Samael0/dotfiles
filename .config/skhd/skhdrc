@@ -52,4 +52,4 @@ alt + shift - e : yabai -m space --equalizei
 alt - s : yabai -m window --toggle split
 
 # open a new terminal window
-alt - return : open -a /Applications/kitty.app
+alt - return : open -a /Applications/WezTerm.app

@@ -3,20 +3,19 @@
 1. oh-my-zsh
 2. brew
 3. asdf
-    - nodejs
-    - lua 
-5. neofetch
-6. jq
-7. Lazygit
-8. ripgrep
-9. fd
+   - nodejs
+   - lua
+4. neofetch
+5. jq
+6. Lazygit
+7. ripgrep
+8. fd
 
 # Programs
 
 - Uninstall Apps
   - AppCleaner
 - Browser
-  - Arc
   - Chrome
   - Firefox Dev
 - Music
@@ -26,7 +25,7 @@
 - Spotlight Replacement
   - Alfred
 - Terminal
-  - Kitty
+  - Wezterm
 - Editor
   - Neovim
 - IDE
@@ -45,11 +44,13 @@
 
 # Fonts
 
+- Font folder
 - `brew install font-jetbrains-mono-nerd-font`
 - `brew install font-hack-nerd-font`
 - `brew install font-fira-code-nerd-font`
 
 # OS Setup
+
 - Disable all macos keyboard shortcuts
 - Hide dock and menu
 - Turn off natural scrolling
