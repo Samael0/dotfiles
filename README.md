@@ -19,11 +19,9 @@
   - Chrome
   - Firefox Dev
 - Music
-  - Spotify (Spicetify)
-    - Adblock
-    - Sleek (Greener)
+  - Apple Music/Cider
 - Spotlight Replacement
-  - Alfred
+  - Raycast
 - Terminal
   - Wezterm
 - Editor
@@ -33,7 +31,7 @@
 - API
   - APIDog
 - Notes
-  - Inkdrop
+  - Obsidian
 
 # Window Managers
 
@@ -51,7 +49,6 @@
 
 # OS Setup
 
-- Disable all macos keyboard shortcuts
 - Hide dock and menu
 - Turn off natural scrolling
 - Do not sort spaces on recent activity
