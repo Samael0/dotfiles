@@ -28,7 +28,11 @@ alt - 8 : yabai -m space --focus 8
 alt - 9 : yabai -m space --focus 9
 alt - 0 : yabai -m space --focus 10
 
-# send window to desktop and follow focus
+# send window to monitor and follow focus
+alt + shift - j : yabai -m window --display prev --focus
+alt + shift - k : yabai -m window --display next --focus
+
+# send window to space and follow focus
 alt + shift - 0x21 : yabai -m window --space prev --focus
 alt + shift - 0x1E : yabai -m window --space next --focus
 alt + shift - 1 : yabai -m window --space 1 --focus
