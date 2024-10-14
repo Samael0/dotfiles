@@ -11,8 +11,8 @@ alt + shift - up : yabai -m window --swap north
 alt + shift - right : yabai -m window --swap east
 
 # focus monitor
-alt - j : yabai -m display --focus prev
-alt - k : yabai -m display --focus next
+alt - 0x1B : yabai -m display --focus prev
+alt - 0x18 : yabai -m display --focus next
 
 # Focus space
 alt - 0x21 : yabai -m space --focus prev
@@ -29,8 +29,8 @@ alt - 9 : yabai -m space --focus 9
 alt - 0 : yabai -m space --focus 10
 
 # send window to monitor and follow focus
-alt + shift - j : yabai -m window --display prev --focus
-alt + shift - k : yabai -m window --display next --focus
+alt + shift - 0x1B : yabai -m window --display prev --focus
+alt + shift - 0x18 : yabai -m window --display next --focus
 
 # send window to space and follow focus
 alt + shift - 0x21 : yabai -m window --space prev --focus

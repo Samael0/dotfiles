@@ -2,10 +2,7 @@ local constants = require("constants")
 local M = {}
 
 M.configurate = function(config)
-	-- config.front_end = "WebGpu"
-	-- config.webgpu_power_preference = 'HighPerformance'
-	-- config.term = "wezterm"
-
+	config.disable_default_key_bindings = true
 	config.default_cursor_style = "BlinkingUnderline"
 	config.cursor_blink_rate = 800
 	config.cursor_blink_ease_in = "EaseIn"
