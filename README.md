@@ -16,8 +16,7 @@
 - Uninstall Apps
   - AppCleaner
 - Browser
-  - Chrome
-  - Firefox Dev
+  - Zen Browser
 - Music
   - Apple Music/Cider
 - Spotlight Replacement
