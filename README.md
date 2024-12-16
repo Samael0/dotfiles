@@ -42,6 +42,7 @@
 # Fonts
 
 - Font folder
+- Sketchybar app font
 - `brew install font-jetbrains-mono-nerd-font`
 - `brew install font-hack-nerd-font`
 - `brew install font-fira-code-nerd-font`
