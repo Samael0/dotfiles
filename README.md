@@ -28,7 +28,7 @@
 - IDE
   - Jetbrains
 - API
-  - APIDog
+  - Bruno
 - Notes
   - Obsidian
 
