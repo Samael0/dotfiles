@@ -21,6 +21,7 @@ brew install coreutils
 brew install curl
 brew install git
 brew install jq
+brew install fzf
 brew install ripgrep
 brew install fd
 brew install gpg
