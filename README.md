@@ -10,6 +10,7 @@
 6. Lazygit
 7. ripgrep
 8. fd
+9. fzf
 
 # Programs
 
