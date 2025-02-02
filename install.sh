@@ -66,6 +66,9 @@ brew install asdf
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 asdf install nodejs latest
 asdf global nodejs latest
+corepack enable
+asdf reshim
+corepack install pnpm
 
 ## Lua
 asdf plugin-add lua https://github.com/Stratus3D/asdf-lua.git
