@@ -45,11 +45,8 @@ brew install --cask wezterm
 brew install --cask bruno
 
 ### Fonts
-brew install --cask font-sf-mono
-brew install --cask font-sf-pro
-brew install font-fira-code-nerd-font
-brew install font-hack-nerd-font
-brew install font-jetbrains-mono-nerd-font
+brew tap epk/epk
+brew install font-sf-mono-nerd-font
 brew install --cask font-sketchybar-app-font
 brew install --cask sf-symbols
 
@@ -111,4 +108,5 @@ csrutil status
 echo "(optional) Disable SIP for advanced yabai features."
 echo "(optional) Add sudoer manually:\n 'echo "$(whoami) ALL=(root) NOPASSWD: sha256:$(shasum -a 256 $(which yabai) | cut -d " " -f 1) $(which yabai) --load-sa" | sudo tee /private/etc/sudoers.d/yabai"
 echo "(optional) Set up git ssh key."
+echo "(optional) Install fonts in font folder."
 echo "Installation complete...\n"
