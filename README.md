@@ -28,7 +28,6 @@
   - Neovim
 - IDE
   - VScode
-  - Zed
   - Jetbrains
 - API
   - Bruno
