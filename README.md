@@ -32,7 +32,7 @@
 - API
   - Bruno
 - Notes
-  - Evernote
+  - Obsidian
 
 # Window Managers
 
