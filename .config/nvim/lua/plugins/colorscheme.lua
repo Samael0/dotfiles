@@ -1,7 +1,6 @@
 local colorscheme = require("lazyvim.plugins.colorscheme")
 return {
   { "rebelot/kanagawa.nvim" }, -- kanagawa colorscheme
-  { "sho-87/kanagawa-paper.nvim" }, -- kanagawa paper colorscheme
   {
     "ellisonleao/gruvbox.nvim", -- gruvbox colorscheme
     priority = 1000,
