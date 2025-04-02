@@ -1,0 +1,59 @@
+# --------------------------------------------------- // System
+pipewire                                               # audio/video server
+pipewire-alsa                                          # pipewire alsa client
+pipewire-audio                                         # pipewire audio client
+pipewire-jack                                          # pipewire jack client
+pipewire-pulse                                         # pipewire pulseaudio client
+gst-plugin-pipewire                                    # pipewire gstreamer client
+wireplumber                                            # pipewire session manager
+pavucontrol                                            # pulseaudio volume control
+networkmanager                                         # network manager
+bluez                                                  # bluetooth protocol stack
+bluez-utils                                            # bluetooth utility cli
+blueman                                                # bluetooth manager gui
+
+# --------------------------------------------------- // Display Manager
+sddm                                                   # display manager for KDE plasma
+
+# --------------------------------------------------- // Window Manager
+hyprland                                               # wayland compositor
+hypridle                                               # idle daemon
+hyprsunset                                             # blue light filter
+hyprlock                                               # lock screen
+hyprpaper                                              # wallpaper
+ags-hyprpanel-git                                      # system bar
+
+# --------------------------------------------------- // Dependencies
+polkit-gnome                                           # authentication agent
+xdg-desktop-portal-gtk                                 # xdg desktop portal
+xdg-desktop-portal-hyprland                            # xdg desktop portal for hyprland
+parallel                                               # for parallel processing
+jq                                                     # for json processing
+imagemagick                                            # for image processing
+grim                                                   # screenshot tool
+
+# --------------------------------------------------- // Fonts and cursors
+catppuccin-cursors-mocha                               # cursor
+apple-fonts                                            # font
+ttf-hack-nerd                                          # font
+otf-monaspace                                          # font
+
+# --------------------------------------------------- // Applications
+rofi-wayland                                           # application launcher
+google-chrome                                          # browser
+kitty                                                  # terminal
+visual-studio-code-bin                                 # ide text editor
+nwg-displays                                           # monitor management utility
+yaak                                                   # API client
+docker-desktop                                         # manage containers
+quickemu                                               # install virtual machines
+quickgui                                               # frontend for quickemu
+
+# --------------------------------------------------- // Shell
+eza                                                    # file lister for zsh
+fastfetch                                              # system information fetch tool
+starship                                               # prompt for zsh
+zinit                                                  # install plugins for zsh
+yazi-nightly-bin                                       # file finder
+asdf-vm                                                # manage multiple language runtime versions
+neovim                                                 # terminal text editor
