@@ -20,7 +20,7 @@ hyprland                                               # wayland compositor
 hypridle                                               # idle daemon
 hyprsunset                                             # blue light filter
 hyprlock                                               # lock screen
-hyprpaper                                              # wallpaper
+swww                                                   # wallpaper
 ags-hyprpanel-git                                      # system bar
 
 # --------------------------------------------------- // Dependencies
@@ -50,10 +50,10 @@ quickemu                                               # install virtual machine
 quickgui                                               # frontend for quickemu
 
 # --------------------------------------------------- // Shell
+zsh                                                    # cli shell
 eza                                                    # file lister for zsh
 fastfetch                                              # system information fetch tool
 starship                                               # prompt for zsh
-zinit                                                  # install plugins for zsh
 yazi-nightly-bin                                       # file finder
 asdf-vm                                                # manage multiple language runtime versions
 neovim                                                 # terminal text editor
