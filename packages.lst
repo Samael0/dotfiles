@@ -31,12 +31,15 @@ parallel                                               # for parallel processing
 jq                                                     # for json processing
 imagemagick                                            # for image processing
 grim                                                   # screenshot tool
+gnome-keyring                                          # gnome-keyring
+libsecret                                              # applications access gnome-keyring
 
 # --------------------------------------------------- // Fonts and cursors
 catppuccin-cursors-mocha                               # cursor
 apple-fonts                                            # font
 ttf-hack-nerd                                          # font
 otf-monaspace                                          # font
+noto-fonts-emoji                                       # font
 
 # --------------------------------------------------- // Applications
 rofi-wayland                                           # application launcher
@@ -48,6 +51,7 @@ yaak                                                   # API client
 docker-desktop                                         # manage containers
 quickemu                                               # install virtual machines
 quickgui                                               # frontend for quickemu
+obsidian                                               # markdown notes
 
 # --------------------------------------------------- // Shell
 zsh                                                    # cli shell
@@ -57,3 +61,4 @@ starship                                               # prompt for zsh
 yazi-nightly-bin                                       # file finder
 asdf-vm                                                # manage multiple language runtime versions
 neovim                                                 # terminal text editor
+lazygit                                                # git terminal tui
