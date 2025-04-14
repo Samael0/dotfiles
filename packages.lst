@@ -48,7 +48,7 @@ google-chrome                                          # browser
 kitty                                                  # terminal
 visual-studio-code-bin                                 # ide text editor
 nwg-displays                                           # monitor management utility
-yaak                                                   # API client
+yaak-appimage                                              # API client
 docker-desktop                                         # manage containers
 quickemu                                               # install virtual machines
 quickgui                                               # frontend for quickemu
