@@ -33,6 +33,7 @@ imagemagick                                            # for image processing
 grim                                                   # screenshot tool
 gnome-keyring                                          # gnome-keyring
 libsecret                                              # applications access gnome-keyring
+7zip                                                   # archiver and compression
 
 # --------------------------------------------------- // Fonts and cursors
 catppuccin-cursors-mocha                               # cursor
