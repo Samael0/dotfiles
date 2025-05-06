@@ -22,6 +22,7 @@ hyprsunset                                             # blue light filter
 hyprlock                                               # lock screen
 swww                                                   # wallpaper
 ags-hyprpanel-git                                      # system bar
+hyprshot                                               # screenshots
 
 # --------------------------------------------------- // Dependencies
 polkit-gnome                                           # authentication agent
@@ -30,7 +31,6 @@ xdg-desktop-portal-hyprland                            # xdg desktop portal for 
 parallel                                               # for parallel processing
 jq                                                     # for json processing
 imagemagick                                            # for image processing
-grim                                                   # screenshot tool
 gnome-keyring                                          # gnome-keyring
 libsecret                                              # applications access gnome-keyring
 7zip                                                   # archiver and compression
@@ -48,7 +48,7 @@ google-chrome                                          # browser
 kitty                                                  # terminal
 visual-studio-code-bin                                 # ide text editor
 nwg-displays                                           # monitor management utility
-yaak-appimage                                              # API client
+yaak-appimage                                          # API client
 docker-desktop                                         # manage containers
 quickemu                                               # install virtual machines
 quickgui                                               # frontend for quickemu
